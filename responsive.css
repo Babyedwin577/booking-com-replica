@@ -1,0 +1,257 @@
+@media (min-width:576px){
+     /*enlarged support section for large screen*/
+     :root{
+        --the-basis:16px;
+     }
+     .mobile{
+        display: none;
+     }
+     .tablet{
+        display: none;
+     }
+     .large-screen-icons{
+        display: none;
+     }
+     .laptop{
+        display: block;
+     }
+     .expanded-options{
+        padding: 16px;
+        max-width: 1140px;
+        margin: 0 auto;
+        box-sizing: border-box;
+     }
+     .expanded-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 24px;
+        row-gap: 21px;
+     }
+    .ex-support{
+        max-width: 196px;
+        gap:12px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .ex-support h1{
+        font-weight: 700;
+        color: #1a1a1a;
+    }
+    .ex-ul{
+        list-style: none;
+    }
+    .ex-ul li{
+        color: rgb(26, 26, 26);
+        margin-bottom: 8px;
+    }
+    .ex-ul-li{
+        color: rgb(26, 26, 26);
+        margin-bottom: 8px;
+    }
+    .margin-ex{
+        margin: 0;
+    }
+    /*extra footer logos*/
+    .footer-logo-md{
+        display: flex;
+        gap: 32px;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+    .footer-logo-md svg{
+        height: 16px;
+        width: auto;
+    }
+    /*explore basis alteration*/
+    .explore-li{
+        flex-basis: 28%;
+    }
+    /*easy section padding*/
+    .easy-ul{
+        padding-left: 0;
+    }
+    /*deals section*/
+    .deals-li{
+        width: 40%;
+    }
+    .hotel-info p{
+        font-size: 12px;
+        margin: 0;
+    }
+    .reviews p{
+    font-size: 12px;
+    margin: 0;
+}
+   .hotel-details{
+    height: 178px;
+   }
+   .h{
+    height: 154px;
+   }
+   
+    /*footer*/
+    .footer-btn{
+        padding: 8px 12px;
+        min-height: 48px;
+        min-width: 48px;
+    }
+    .footer-btn h3{
+        font-size: 16px;
+    }
+    .footer-icons{
+        justify-content: flex-start;
+    }
+    .footer-cities-li{
+        width: 28%;
+    }
+    .sign-in-inner{
+        justify-content: space-between;
+    }
+}
+@media (min-width:768px){
+
+    .hotel-details {
+        height: 158px;
+    }
+}
+@media (min-width:1024px) {
+    .main-logo{
+         height: 24px;
+    }  
+    .nav{
+        padding-top: 6px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+    }
+    .scroll-inner{
+        margin-top: -2px;
+    }
+    .head{
+        padding-top: 20px;
+    }
+    .large-screen-icons{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-end;
+    font-family:"system-ui", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif ;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    }
+    .nav-india{
+        width: 24px;
+        height: 24px;
+        border-radius: 9999px;
+    }
+    .question-icon{
+        width: 20px;
+        height: 20px;
+        align-self: center;
+        fill: rgb(255, 255, 255);
+    }
+    .list-color{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .register-btn-md{
+        padding: 4px 12px;
+        min-height: 36px;
+        min-width: 36px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background: #fff;
+    }
+    .register-btn-md span{
+        font-weight: 500;
+        color: #006ce4;
+    }
+    .explore-ul{
+        gap: 16px;
+    }
+    .explore-li{
+        flex-basis:calc((100% - (16px * 3)) / 4);
+    }
+    .icons-visible{
+        display: none;
+    }
+    .deals-li{
+        margin-right: 16px;
+        width: calc((100% - (16px * 2)) / 3);
+    }
+    .icons-on-laptop{
+        display:flex;
+    }
+    /*altered cities section*/
+    .cities-al{
+        margin-top:16px ;
+        padding-top: 16px;
+    }
+    .cities-al-inner{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: stretch;
+    }
+    .cities-al-ul{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+
+ .hotel-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.hotel-li-edits{
+    font-size: 12px;
+    line-height: 18px;
+}
+.laptop-head{
+    font-size: 24px;
+}
+.locations{
+    padding-top: 18px;
+}
+.main-nav{
+    margin-top: 2px;
+}
+.cities-altered{
+    display: none;
+}
+.dot-contents{
+    padding: 16px 32px;
+}
+.expanded-inner{
+    margin-top: 14px;
+    margin-bottom: -3px;
+    justify-content: space-between;
+}
+.dot-contents{
+    margin-bottom: -14px;
+}
+.expanded-options{
+    padding: 16px 32px;
+}
+.dot-contents-wrapper{
+    background: #fff;
+}
+
+}
+    
